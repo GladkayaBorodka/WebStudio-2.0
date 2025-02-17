@@ -20,3 +20,8 @@ body {
 a[href="#"] {
     font-family: 'Raleway', sans-serif;
   }
+body { line-height: 1.5; /*150%-коефійієнт*/ }
+h1, h2, h3 { line-height: 1.5;/*150%*/ }
+p { line-height: 1.5;/*150%*/ }
+ul, li { line-height: 1.5;/*150%*/ }
+button { line-height: 2;/*200%*/ }
