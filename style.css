@@ -25,3 +25,231 @@ h1, h2, h3 { line-height: 1.5;/*150%*/ }
 p { line-height: 1.5;/*150%*/ }
 ul, li { line-height: 1.5;/*150%*/ }
 button { line-height: 2;/*200%*/ }
+.container {
+    max-width: calc(100% - 215px);
+    margin-left: 215px;
+    margin-right: 215px;
+}
+header {
+    margin-bottom: 200px;
+}
+.button {
+    margin-bottom: 300px; 
+}
+
+/*Header*/
+
+.header {
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 10px 20px;            
+    color: black;                 
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-list {
+    display: flex;                  
+    list-style: none;               
+    margin: 0;                      
+    padding: 0;                    
+}
+
+.nav-item {
+    margin-right: 20px;            
+}
+.nav-link {               
+    text-decoration: none;         
+    font-size: 1rem;              
+}
+.nav-link:hover {
+    text-decoration: underline;    
+}
+.contact-list {
+    display: flex;               
+    list-style: none;            
+    margin: 0;                    
+    padding: 0;                   
+}
+
+.contact-item {
+    margin-right: 20px;           
+}
+
+.contact-link {            
+    text-decoration: none;        
+    font-size: 17px;              
+}
+
+.contact-link:hover {
+    text-decoration: underline;  
+}
+
+
+
+/*Main*/
+
+
+.main {
+    width: 100%;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+    text-align: center;       
+  }
+  .hero-title {
+    font-size: 2.5rem;   
+    margin-bottom: 20px; 
+  }
+  
+  .button {
+    padding: 10px 20px;    
+    font-size: 1rem;     
+    background-color: #007bff; 
+    color: white;         
+    border: none;          
+    cursor: pointer;     
+    border-radius: 5px;    
+  }
+  .button:hover {
+    background-color: #0056b3; 
+  }
+  * Стили для секции details */
+.details {
+    padding: 40px 0;
+}
+.details-list {
+    display: flex;            
+    flex-wrap: wrap;          
+    justify-content: space-between; 
+    padding: 0;
+    margin: 0;
+    list-style: none;         
+}
+.details-item {
+    width: 22%;               
+    margin-bottom: 20px;      
+}
+.details-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.activities {
+    padding: 40px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.activities-title {
+    text-align: center;         
+    font-size: 2rem;            
+    margin-bottom: 20px;        
+}
+
+
+.activities-list {
+    display: flex;               
+    justify-content: space-between; 
+    padding: 0;
+    margin: 0;
+    list-style: none;            
+}
+.activities-item {
+    width: 30%;                  
+}
+.activities-img {
+    width: 100%;                 
+    height: auto;                
+    display: block;              
+}
+.team {
+    padding: 40px 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.team-title {
+    text-align: center;        
+    font-size: 2rem;           
+    margin-bottom: 40px;      
+}
+.team-list {
+    display: flex;             
+    justify-content: space-between; 
+    flex-wrap: wrap;           
+    padding: 0;
+    margin: 0;
+    list-style: none;          
+}
+.team-item {
+    width: 22%;               
+    margin-bottom: 30px;      
+    text-align: center;       
+}
+.team-img {
+    width: 100%;               
+    height: auto;              
+    border-radius: 50%;      
+    margin-bottom: 20px;       
+}
+.team-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;      
+}
+
+.hero {
+    background-color: #808080; 
+    width: 1600px;            
+    height: 600px;             
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    margin: 0 auto;            
+    text-align: center;        
+}
+
+/*Footer*/
+
+.footer-logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-list {
+    list-style: none;             
+    margin: 0;                   
+    padding: 0;                   
+}
+
+.footer-item {
+    margin-bottom: 10px;          
+}
+.footer-link {
+    text-decoration: none;        
+}
+
+.footer-link:hover {
+    text-decoration: underline;  
+}
+
+
+
+
+  
+  
