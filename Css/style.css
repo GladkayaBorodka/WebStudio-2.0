@@ -204,7 +204,7 @@ header {
 .team-img {
     width: 100%;               
     height: auto;              
-    border-radius: 50%;      
+    border-radius: 0;  
     margin-bottom: 20px;       
 }
 .team-name {
