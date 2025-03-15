@@ -60,30 +60,78 @@ main {
     text-decoration: underline;  
 }
 /*Main*/
+
+
+
+
+
 .filters {
+    justify-content: center;
     display: flex;
-    justify-content: center; 
-    gap: 10px; 
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
 }
-.grid {
+.filter-button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+.filter-button:hover {
+    background: #007bff;
+    color: white;
+}
+.filter-button.active {
+    font-weight: bold;
+}
+
+
+
+
+.portfolio-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 колонки одинаковой ширины */
-    gap: 10px; 
+    grid-template-columns: repeat(3, 1fr); /* 3 столбца */
+    gap: 20px; /* Расстояние между элементами */
+    list-style: none;
+    padding: 0;
 }
 
-.item {
-    text-align: center; 
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-
-.item img {
-    width: 100%;  
-    height: auto;  
-}
+  
 .portfolio-image {
-    width: 100%;               
-    height: auto;              
-    border-radius: 0;  
-    margin-bottom: 20px; }
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.portfolio-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.portfolio-category {
+    font-size: 14px;
+    color: gray;
+}
+
+.portfolio-image {
+    width: 370px;
+    height: 300px; 
+    display: block;
+}
+
+
+
 
 
 /*Footer*/

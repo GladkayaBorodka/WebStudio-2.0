@@ -166,6 +166,10 @@ header {
     margin: 0;
     list-style: none;            
 }
+.activities-img {
+    width: 370px;
+    height: 300px;
+}
 .activities-item {
     width: 30%;                  
 }
