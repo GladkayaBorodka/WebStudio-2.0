@@ -107,20 +107,22 @@ header {
     font-size: 2.5rem;   
     margin-bottom: 20px; 
   }
-  
-  .button {
-    padding: 10px 20px;    
-    font-size: 1rem;     
-    background-color: #007bff; 
-    color: white;         
-    border: none;          
-    cursor: pointer;     
-    border-radius: 5px;    
-  }
-  .button:hover {
-    background-color: #0056b3; 
-  }
-  * Стили для секции details */
+  .hero-button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+.hero-button:hover {
+    background: #007bff;
+    color: white;
+}
+.hero-button.active {
+    font-weight: bold;
+}
+  /* Стили для секции details */
 .details {
     padding: 40px 0;
 }
