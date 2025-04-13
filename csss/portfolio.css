@@ -12,53 +12,72 @@ main {
 }
 /*Header*/
 .header {
-    display: flex;                  
-    justify-content: space-between; 
-    align-items: center;            
-    padding: 10px 20px;            
-    color: black;                 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+    font-family: sans-serif;
 }
-.logo {
+
+/* Логотип */
+.PFheader-logo {
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
+    display: flex;
 }
+
+.PFheader-logo-web {
+    color: #2196F3;
+}
+
+.PFheader-logo-studio {
+    color: #000000;
+}
+
+/* Навигация (по центру) */
 .nav-list {
-    display: flex;                  
-    list-style: none;               
-    margin: 0;                      
-    padding: 0;                    
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
 }
 
-.nav-item {
-    margin-right: 20px;            
+.nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black; /* Чёрный по умолчанию */
+    transition: color 0.3s ease;
 }
-.nav-link {               
-    text-decoration: none;         
-    font-size: 1rem;              
-}
+
 .nav-link:hover {
-    text-decoration: underline;    
+    color: #2196F3; /* Голубой при наведении */
 }
+
+/* Контакты (справа) */
 .contact-list {
-    display: flex;               
-    list-style: none;            
-    margin: 0;                    
-    padding: 0;                   
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
 }
 
-.contact-item {
-    margin-right: 20px;           
-}
-
-.contact-link {            
-    text-decoration: none;        
-    font-size: 17px;              
+.contact-link {
+    text-decoration: none;
+    font-size: 17px;
+    font-style: italic;
+    color: gray; /* Серый по умолчанию */
+    transition: color 0.3s ease;
 }
 
 .contact-link:hover {
-    text-decoration: underline;  
+    color: #2196F3; /* Голубой при наведении */
+    text-decoration: underline;
 }
+
 /*Main*/
 
 
@@ -135,10 +154,17 @@ main {
 
 
 /*Footer*/
-.footer-logo {
+.PFfooter-logo {
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
+}
+.PFfooter-logo-web {
+    color: #2196F3; 
+}
+
+.PFfooter-logo-studio {
+    color: #000000; 
 }
 .footer-list {
     list-style: none;             

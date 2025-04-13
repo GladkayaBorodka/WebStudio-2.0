@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" class="html">
-<head class="head">
-    <meta charset="UTF-8" class="meta">
-    <meta name="viewport" content="width=device-width, initial-scale=meta-viewport">
-    <title class="title">Веб Студіо</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб Студіо</title>
     <link rel="stylesheet" href="csss/reset.css">
     <link rel="stylesheet" href="csss/style.css">
-    <link href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900" rel="stylesheet" class="link-font">
-    <link href="https://fonts.google.com/share?selection.family=Raleway:ital,wght@0,100..900;1,100..900|Roboto:ital,wght@0,100..900;1,100..900" rel="stylesheet" class="link-font">
+    <link href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100..900;1,100..900" rel="stylesheet">
+    <link href="https://fonts.google.com/share?selection.family=Raleway:ital,wght@0,100..900;1,100..900|Roboto:ital,wght@0,100..900;1,100..900" rel="stylesheet">
 </head>
 <body class="body">
 
 <header class="header">
-    <div class="container">
-        <a href="#" class="logo"><span class="logo-text">Web</span>Studio</a>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#about" class="nav-link">Студіо</a></li>
-                <li class="nav-item"><a href="portfolio.html" class="nav-link">Портфоліо</a></li>
-                <li class="nav-item"><a href="#contacts" class="nav-link">Контакти</a></li>
+    <div class="header-container">
+        <a href="#" class="header-logo">
+            <span class="header-logo-web">Web</span><span class="header-logo-studio">Studio</span>
+          </a>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item"><a href="#about" class="header-nav-link">Студіо</a></li>
+                <li class="header-nav-item"><a href="portfolio.html" class="header-nav-link">Портфоліо</a></li>
+                <li class="header-nav-item"><a href="#contacts" class="header-nav-link">Контакти</a></li> 
             </ul>
         </nav>
-        <address class="contact">
-            <ul class="contact-list">
-                <li class="contact-item"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-                <li class="contact-item"><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+        <address class="header-contact">
+            <ul class="header-contact-list">
+                <li class="header-contact-item"><a href="mailto:info@devstudio.com" class="header-contact-link">info@devstudio.com</a></li>
+                <li class="header-contact-item"><a href="tel:+380961111111" class="header-contact-link">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </div>
@@ -32,37 +34,42 @@
 
 <main class="main">
     <section class="hero">
-        <div class="container">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <div class="hero-container">
+            <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
             <button type="button" class="hero-button">Замовити послугу</button>
         </div>
     </section>
 
     <section class="details">
-        <div class="container">
+        <div class="details-container">
             <ul class="details-list">
                 <li class="details-item">
+                    <img src="./img/picthreeone.png" alt="Увага до деталей" class="details-icon">
                     <h3 class="details-heading">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="details-text">Ідейні міркування, і навіть початок повсякденної роботи.</p>
                 </li>
                 <li class="details-item">
+                    <img src="./img/picthreetwo.png" alt="Пунктуальність" class="details-icon">
                     <h3 class="details-heading">ПУНКТУАЛЬНІСТЬ</h3>
                     <p class="details-text">Завдання організації тягне у себе.</p>
                 </li>
                 <li class="details-item">
+                    <img src="./img/picthreethree.png" alt="Планування" class="details-icon">
                     <h3 class="details-heading">ПЛАНУВАННЯ</h3>
                     <p class="details-text">Консультація з широким активом.</p>
                 </li>
                 <li class="details-item">
+                    <img src="./img/picthreefour.png" alt="Сучасні технології" class="details-icon">
                     <h3 class="details-heading">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p class="details-text">Реалізація планових завдань.</p>
                 </li>
             </ul>
         </div>
     </section>
+    
 
     <section class="activities">
-        <div class="container">
+        <div class="activities-container">
             <h2 class="activities-title">Чим ми займаємося</h2>
             <ul class="activities-list">
                 <li class="activities-item"><img src="./img/piconeone.jpg" alt="Man Coding" class="activities-img" /></li>
@@ -73,7 +80,7 @@
     </section>
 
     <section class="team">
-        <div class="container">
+        <div class="team-container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-item">
@@ -102,8 +109,10 @@
 </main>
 
 <footer class="footer">
-    <div class="container">
-        <a href="#" class="footer-logo">WebStudio</a>
+    <div class="footer-container">
+        <a href="#" class="footer-logo">
+            <span class="footer-logo-web">Web</span><span class="footer-logo-studio">Studio</span>
+          </a>
         <address class="footer-address">
             <ul class="footer-list">
                 <li class="footer-item">Місто Київ, пр-т Лесі Українки, 26</li>
@@ -113,3 +122,6 @@
         </address>
     </div>
 </footer>
+
+</body>
+</html>
