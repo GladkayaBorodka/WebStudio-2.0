@@ -1,5 +1,5 @@
 footer {
-    background-color: grey;
+    background-color:  #2F303A;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -176,7 +176,8 @@ main {
     margin-bottom: 10px;          
 }
 .footer-link {
-    text-decoration: none;        
+    text-decoration: none;
+     color: #7c7777;        
 }
 
 .footer-link:hover {
