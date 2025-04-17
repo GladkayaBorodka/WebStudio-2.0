@@ -129,6 +129,8 @@ header {
     font-size: 16px;
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
 }
 .hero-button:hover {
     background: #007bff;
@@ -138,6 +140,33 @@ header {
     font-weight: bold;
 }
 /* Стили для секции details */
+.details-icon {
+    display: none;
+}
+
+.details-item::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.details-item:nth-child(1)::before {
+    background-image: url("../img/system-c.jpg");
+}
+.details-item:nth-child(2)::before {
+    background-image: url("../img/time-c.jpg");
+}
+.details-item:nth-child(3)::before {
+    background-image: url("../img/laptop-c.jpg");
+}
+.details-item:nth-child(4)::before {
+    background-image: url("../img/astronaut-c.jpg");
+}
 .details {
     padding: 40px 0;
 }
@@ -174,7 +203,7 @@ header {
     justify-content: center; /* выравнивание по центру */          
 }
 .activities-item {
-    width: 30%;                  
+    width: 30%;           
 }
 .activities-img {
     width: 370px;
@@ -182,6 +211,7 @@ header {
     display: block;
     object-fit: cover; /* чтобы изображение сохраняло пропорции и заполняло блок */
     gap: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 .team {
     padding: 40px 0;
@@ -202,7 +232,8 @@ header {
 .team-item {
     width: 22%;               
     margin-bottom: 30px;      
-    text-align: center;       
+    text-align: center; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);      
 }
 .team-img {
     width: 100%;               
@@ -217,18 +248,19 @@ header {
 }
 
 .hero {
-    background-image: url("../img/humansworking.jpg");
-    opacity: 0.9;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.6)), url("../img/humansworking.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
-    width: 100%; 
-    margin: 0;
 }
+
 
 .hero .container {
     max-width: 1200px; 
