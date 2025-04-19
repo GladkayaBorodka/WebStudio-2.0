@@ -10,6 +10,24 @@ header {
 main {
     margin-bottom: 100px;
 }
+/* Универсальный контейнер для всех секций */
+.container {
+    width: 100%;
+    max-width: 1200px;  /* Ширина по макету */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;  /* Внутренние отступы */
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+  
+
+
+
+
+
+
+
 /*Header*/
 .header {
     display: flex;
